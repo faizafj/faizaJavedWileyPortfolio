@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+			<ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img> 
+				<li><a href="index.html">Home</a></li>
+                <li> <a href="portfolioPage.html">Portfolio</a></li>
+				<li> <a href="about.html">About</a></li>
+
+			</ul>
+		</nav>
+    </header>
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+
+    <center> 
+    <article id="fullPage">
+        <center> 
+            <article id="articleTitleBig">
+                <h2 id="moduleTitleBig"> Dissertation Module </h2>
+                <p id="moduleDateBig"> September 2021 - May 2022 </p>
+            </article>
+
+
+        </center>
+        <center> <img src="photos/homepageDiso.png" id="moduleImgMedium"> </img> </center>
+            <article id="fullPageGrid">
+                <article id="fullPageGrid1">
+                    <p id="techUsed"> DESCRIPTION </p>
+                    <p id="moduleShortDescription"> This university module required me to create a Movie Review website using React and Flask with the main focus being the end user's experience (UX). 
+                        In order to plan and create the website, I first had to create a prototype which was tested against users through a usability test, which was then altered, and then the design was created. 
+                        After the website was complete, it was tested once again to pick out any further improvements and highlight the users experience. 
+                    </p>
+                </article>
+                <article id="fullPageGrid2">            
+                    <p id="techUsed"> TECHNOLOGY USED / METHODOLOGIES USED </p>
+                    <ul id="techUsedList"> 
+                        <li id=techItem"> Adobe XD </li>
+                        <li id=techItem"> HTML </li>
+                        <li id=techItem"> Flask </li>
+                        <li id=techItem"> Python </li>
+                        <li id=techItem"> JavaScript </li>
+                        <li id=techItem"> React.JS </li>
+                        <li id=techItem"> Material Design </li>
+                        <li id=techItem"> GitHub / Version Control </li>
+                    </ul>
+
+                    <ul id="techUsedList"> 
+                        <li id=techItem"> User centered design</li>
+                        <li id=techItem"> User Experience Design </li>
+                        <li id=techItem"> Human Computer Interaction </li>                       
+                    </ul>
+                </article>   
+                <article id="fullPageGrid3">  
+                    <p id="techUsed"> WIREFRAME PROTOTYPE URL </p>          
+                    <p id="fullPageWebLink"> <a href="https://xd.adobe.com/view/ffbdd966-5074-442f-824b-42733319982d-aaee/?hints=off " id="moduleFullPageLink">https://xd.adobe.com/view/ffbdd966-5074-442f-824b-42733319982d-aaee/?hints=off </a> </p>
+                    
+                    <article id="fullPageGrid5">  
+                        <p id="techUsed"> GITHUB LINK </p> 
+                        <p id="fullPageWebLink"> <a href="https://github.com/faizafj/annotationSystem" id="moduleFullPageLink"> Document Annotation GitHub </a> </p>
+                    </article> 
+
+                    <article id="fullPageGrid4">  
+                        <p id="techUsed"> GRADE GIVEN </p>          
+                        <p> 68% </p>
+                    </article> 
+                </article>       
+            </article>
+            <article id="fullPageDescription">
+
+
+                <article id="resultsArticle"> 
+                    <article id="resultsSec2"> 
+                        <p id="resultsDescription"> I used Adobe XD to create a working prototype which emulated the design, features and functions of the website. 
+                            As XD has data-entry limitations, I was limited to a partial implementation which used mock data input meaning that the prototype could not be as realistic as intended which was challending to do, but also quite fun. 
+                            I enjoyed having to find work arounds to create the elements, and to learn different techniques in order to create the mock functionality.  
+                       </p>
+                    </article>
+                    <article id="resultsSec1"> 
+                        <center> <img src="photos/XDFeatures.gif" id="gifSquare"> </img> </center>
+                    </article>
+                </article>
+    
+
+                <p id="moduleDescription"> After the formative user testing, the improvements to the design were noted and were implemented in the next stage which was the creation of the website. 
+                    For the implementation of the website, I used a Flask backend using Python to handle the data for the website. To pull data from the database, I used SQLAlchemy which allowed communication with the Python and SQL server. For the UI and front-end of the website I used React which was a framework I had never used prior to this project.
+                    However, I understood and picked up layout of React very quickly which was essential in getting the project ready in time for testing and the module deadline.
+                </p>
+                <p id="moduleDescription"> Further testing was conducted with the same users after the prototype design was implemented into the website. This provided further information about how to user's experience with the website is and to see if it has been improved compared to the previous testing. 
+                    Overall, the users were all very satistfied, with 85% of users saying the website was very easy to use, meaning there was an improvement of around 30% (previously 57% of users found it very easy to use).
+                </p>
+
+
+                <center>
+            </article>
+        </article>
+    </center>
+
+
+    
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+   <footer>
+    <ul>
+        <li> <p id="copyrightFJ"> © Faiza Javed 2023</p></li>
+    </ul>
+</footer>
+
+
+</body>
+

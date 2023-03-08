@@ -1,0 +1,150 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="#mainArticle">Portfolio</a> </li>
+                <li> <a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+
+    <article id="aboutSnippet">
+        <article id="snippetTwo">
+
+            <center>
+                <h1 id="hello1"> Hello I am  </h1>
+                <h1 id="helloWrapper">  <p id="hello2"> F </p> <p id="hello2"> A </p> <p id="hello2"> I </p> <p id="hello2"> Z </p> <p id="hello2"> A </p>  
+                    <br> 
+              <p id="hello2"> J </p> <p id="hello2"> A </p> <p id="hello2"> V </p> <p id="hello2"> E </p> <p id="hello2"> D </p> </h1> 
+            </center>
+        </article>
+
+
+        <article id="snippetOne">
+            <center>
+                <img src="photos/faiza.png" id="faizaPic"> </img>
+            </center>
+        </article>
+
+        <article id="snippetThree">
+            <center>
+                <figure id="socialImagesBox">
+                    <a href="about.html" id="imgLink" > <img src="photos/AboutLink.png"
+                            id="socialImages"> </a>
+                    <figcaption>Profile</figcaption>
+                </figure>
+
+                <figure id="socialImagesBox">
+                    <a href="https://github.coventry.ac.uk/javedf5" id="imgLink"><img src="photos/githubLink.png"
+                            id="socialImages"> </img> </a>
+                    <figcaption>Github</figcaption>
+                </figure>
+                <figure id="socialImagesBox">
+                    <a href="https://www.linkedin.com/in/faizajaved-/" id="imgLink"> <img src="photos/linkedinLink.png"
+                            id="socialImages"> </img> </a>
+                    <figcaption>Linkedin</figcaption>
+                </figure>
+                <figure id="socialImagesBox">
+                    <a href="mailto:faizafj@outlook.com" id="imgLink"> <img src="photos/Email2.png"
+                            id="socialImages"> </a>
+                    <figcaption>Email</figcaption>
+                </figure>
+
+            </center>
+        </article>
+    </article>
+
+
+    <center>
+
+        <h2 id="portfolioTitle"> Projects: </h2>
+        <p id="portfolioTitleSmall"> The following are projects that were completed during my university degree and Wiley Edge Training: </p>
+        <article id="mainArticle">
+
+            <article id="articleInGrid">
+                <article id="titleArt">
+                    <h2 id="moduleTitle"> Metro Tap In/Out System </h2>
+                    <p id="modulesmallTitle"> Spring JPA Application with REST API</p>
+                </article>
+                <img src="photos/homepageImage.png" id="moduleImg"> </img>
+                <p id="moduleLinkWrapper"> <a href="metro.html" id="moduleLink">View Project </a> </p>
+                <p id="moduleLinkWrapper"> <a href="https://github.com/faizafj/metroSystemDec16" id="moduleLink">Github Link</a> </p>
+            </article>
+
+            <article id="articleInGrid">
+                <article id="titleArt">
+                    <h2 id="moduleTitle"> Software Development </h2>
+                    <p id="modulesmallTitle"> Frequently asked questions website (SPA), with REST API </p>
+                </article>
+                <img src="photos/5007CEM.png" id="moduleImg"> </img> 
+                <p id="moduleLinkWrapper"> <a href="5007CEMPage.html" id="moduleLink">Project Details</a> </p>
+                <p id="moduleLinkWrapper"> <a href="https://github.com/faizafj/frequentlyAskedQuestions/" id="moduleLink">Github Link</a> </p>
+                <p id="moduleLinkWrapper"> <a href="https://frequenltyaskedquestions.herokuapp.com/#allQuestions" id="moduleLink">Live Website</a> </p>
+            </article>
+
+
+            <article id="articleInGrid">
+                <article id="titleArt">
+                    <h2 id="moduleTitle"> User Experience Design </h2>
+                    <p id="modulesmallTitle"> Movie Reviews website using React </p>
+                </article>
+                <img src="photos/movieClubHomepage.jpeg" id="moduleImg"> </img> 
+                <p id="moduleLinkWrapper"> <a href="UXDesign.html" id="moduleLink">View Project</a> </p>
+                <p id="moduleLinkWrapper"> <a href="https://github.com/faizafj/movieReviews" id="moduleLink">Github Link</a> </p>
+                <p id="moduleLinkWrapper"> <a href="https://xd.adobe.com/view/da4eab5f-9774-48d6-9895-00723d91e64e-8f1d/?fullscreen&hints=off" id="moduleLink">XD Protoype</a> </p>
+            </article>
+
+
+        <article id="articleInGrid">
+            <article id="titleArt">
+                <h2 id="moduleTitle"> Portfolio Website </h2>
+                <p id="modulesmallTitle"> Static Portfolio website using plain HTML, CSS</p>
+            </article>
+            <img src="photos/portfolioWebsiteHome.png" id="moduleImg"> </img> 
+            <p id="moduleLinkWrapper"> <a href="UXDesign.html" id="moduleLink">View Project</a> </p>
+            <p id="moduleLinkWrapper"> <a href="https://github.com/faizafj/movieReviews" id="moduleLink">Github Link</a> </p>
+            <p id="moduleLinkWrapper"> <a href="https://xd.adobe.com/view/da4eab5f-9774-48d6-9895-00723d91e64e-8f1d/?fullscreen&hints=off" id="moduleLink">XD Protoype</a> </p>
+        </article>
+    </article>
+    </center>
+
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <footer>
+        <ul>
+            <li>
+                <p id="copyrightFJ"> © Faiza Javed 2023</p>
+            </li>
+        </ul>
+    </footer>
+</body>

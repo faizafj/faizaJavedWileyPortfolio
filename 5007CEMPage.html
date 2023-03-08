@@ -1,0 +1,120 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+			<ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img> 
+				<li><a href="index.html">Home</a></li>
+                <li> <a href="portfolioPage.html">Portfolio</a></li>
+				<li> <a href="about.html">About</a></li>
+			</ul>
+		</nav>
+    </header>
+    <center> 
+    <article id="fullPage">
+            <article id="articleTitleBig">
+                <h2 id="moduleTitleBig"> Software Development Module </h2>
+                <p id="moduleDateBig"> September 2021 - December 2021 </p>
+            </article>
+            <img src="photos/5007CEM.png" id="moduleImgMedium"> </img> 
+            <article id="fullPageGrid">
+                <article id="fullPageGrid1">
+                    <p id="techUsed"> DESCRIPTION </p>
+                    <p id="moduleShortDescription"> This module required me to create a website based on a given topic. 
+                        The focus of this module being creating a REST API using a SQL database to manage the data and using version control correctly and effeciently. 
+                        The topic given was to create a Frequently Asked Questions website where students can submit questions regarding university topics.  
+                    </p>
+                </article>
+                <article id="fullPageGrid2">            
+                    <p id="techUsed"> TECHNOLOGY USED </p>
+                    <ul id="techUsedList"> 
+                        <li id=techItem"> JavaScript </li>
+                        <li id=techItem"> HTML </li>
+                        <li id=techItem"> CSS </li>
+                        <li id=techItem"> Deno </li>
+                        <li id=techItem"> Github </li>
+                        <li id=techItem"> REST API </li>
+                        <li id=techItem"> Single Page Application (SPA) </li>
+                        <li id=techItem"> Heroku Deployment</li>
+                        <li id=techItem"> My SQL</li>
+                    </ul>
+                </article>   
+                <article id="fullPageGrid3">  
+                    <p id="techUsed"> URL </p>          
+                    <p id="fullPageWebLink"> <a href="https://frequenltyaskedquestions.herokuapp.com/#allQuestions" id="moduleFullPageLink">https://frequentlyaskedquestions.herokuapp.com/#allQuestions</a> </p>
+                    <article id="fullPageGrid5">  
+                        <p id="techUsed"> GITHUB LINK </p> 
+                        <p id="fullPageWebLink"> <a href="https://github.com/faizafj/frequentlyAskedQuestions/" id="moduleFullPageLink"> FAQ Website GitHub </a> </p>
+                    </article> 
+
+                    <article id="fullPageGrid4">  
+                        <p id="techUsed"> GRADE GIVEN </p>          
+                        <p> 68% </p>
+                    </article> 
+                </article>       
+            </article>
+
+            <article id="fullPageDescriptionList">
+                <h1 id="descriptionTitle"> Project features: </h1>
+                <ul id="descriptionList">
+                    <li id="descriptionItem">   This project required me to create a full stack Frequently Asked Questions website where users can create and answer queries using JavaScript, CSS, HTML and a Deno stack. </li>
+                    <li id="descriptionItem">  - Version Control: I had used GitHub to assist with feature management during the development of this website.  I also used linters to ensure code quality and enforcing checks before commits using some GitHooks </li>
+                    <li id="descriptionItem"> 	- Server-side Scripting:  I creeated a database to manage the website data and created a REST API in order to handle the data, including creating, retrieving, updating and deleting the data (CRUD). </li>
+                    <li id="descriptionItem">	- Client-Side programming: Finally, I created a responsive user-interface for the website, which allows users to view questions, and add their own, through most devices. </li>
+                </ul>
+   
+                <h1 id="descriptionTitle"> The core functionality consists of: </h1>
+                <ul id="descriptionList">
+                    <li id="descriptionItem">  -  A homepage where users don't need to be logged in to view the all the questions, however if they are logged in, there should be an Add question button or link that takes users to a screen where they can ask their own questions. </li>
+                    <li id="descriptionItem">  - A login and register Page. </li>
+                    <li id="descriptionItem">  - An add question page, where when the user is logged in, they can submit their own question to the website. </li>
+                    <li id="descriptionItem"> -  A Details page which displays the information associated with the question selected. Including the name of the user who posted, time and date.  </li>
+                </ul>
+            </article>
+
+            <video controls id="videoWalkthrough">
+                <source src="photos/frontend.mp4" type="video/mp4">
+            </video>
+            <figcaption>  Above is a walkthrough of the website that was created. It shows all the features that were created, how the website can be used, the pages available and the design of the website too.  </figcaption>
+
+            <video controls id="videoWalkthrough">
+                <source src="photos/api.mp4" type="video/mp4">
+            </video>
+            <figcaption> Above is an explanation of the API and how it was created and is used. </figcaption> 
+                    
+        </article>
+    </center>
+
+
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    <footer>
+        <ul>
+            <li> <p id="copyrightFJ"> © Faiza Javed 2023</p></li>
+        </ul>
+    </footer>
+
+
+</body>

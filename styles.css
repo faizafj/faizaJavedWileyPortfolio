@@ -1,0 +1,698 @@
+body {
+	color:black;
+    font-family: 'Arimo', sans-serif;
+	margin: 0px;
+    height: fit-content;
+    padding: 0%;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#backToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #F1C4BA;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #backToTopButton:hover {
+    background-color:  #F1C4BA;
+    color: black;
+  }
+
+/* Navigation Bar CSS */
+
+
+p{
+    font-size: 15px;
+}
+nav {
+    background-color: black;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+    
+}
+
+#navbar{
+    padding: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+
+ul > li {
+    display: inline-block;
+    margin: 30px; 
+    padding-bottom: 50px;
+}
+
+a{
+	padding: 5px;
+	text-decoration: None;
+	color: white;
+}
+
+a:hover {
+	color: #F1C4BA;
+	border-radius: 15px; 
+    font-style: italic;
+}
+
+
+#logo{
+	width: 90px;
+	height: 25px;  
+}
+
+
+/* Footer CSS  */
+
+footer {
+    background: black;
+	height: 75px;
+	width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: 0%;
+    text-align: center;
+
+
+}
+footer > ul > li > a{
+    color: white;
+}
+
+footer > ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer > ul > li {
+    padding-bottom: 0px;
+}
+
+#copyrightFJ{
+    color: white;
+}
+
+
+
+/* About Section (Homepage) CSS */
+#aboutSnippet {
+    background: black;
+    height: fit-content;
+    margin: 20px;
+    width: auto;
+    display: grid;
+    margin-bottom: 15%;
+    /* grid-template-columns: 1fr 4fr, 5fr; */
+}
+
+#snippetOne{
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+}
+
+#snippetTwo{
+    background: black;
+    padding: 20px;
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#imgLink{
+    background-color: black;
+}
+
+#snippetThree{
+    background: black;
+    padding: 20px;
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: auto;
+}
+
+#faizaPic{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+#helloWrapper{
+    margin: 0;
+}
+
+#hello1{
+    color: #F1C4BA;
+    font-family: 'Pacifico', serif;
+    font-size: 30px;
+    line-height: 5px;
+    margin-bottom: 0px;
+
+  }
+
+  #hello2{
+    color:#F1C4BA;
+    line-height: 5px;
+    font-size: 90px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  #hello2:hover {
+    color:white;
+    line-height: 5px;
+    font-size: 90px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+
+#snippetTitleBig{
+    width: 50%;
+	height: 50%;  
+}
+#snippetTitle{
+    color: black;
+    text-align: center;
+    font-family: "Pangolin", sans-serif;
+    font-size: 100px;
+}
+
+#snippetDescription {
+    color: white;
+}
+
+#socialImages{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#socialImagesBox{
+    display: inline-block;
+}
+
+figcaption{
+    color: white;
+}
+
+
+#viewPortfolio{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+
+#viewPortfolio:hover{
+    color: white;
+    background-color: #F1C4BA;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+#viewPortfolioLink:hover{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    border: none;
+}
+
+#viewPortfolioLink{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    border: none;
+}
+
+figure > a{
+    background-color: white;
+    color: white;
+}
+
+figure > a:hover{
+    background-color: white;
+    color: white;
+}
+
+
+/* Main content CSS  */
+#mainArticle{
+    margin: 20px;
+	height: fit-content;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr );
+    display: grid;
+    background-color: black;
+}
+#articleInGrid{
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 15px;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+#moduleImg{
+    width: 90%;
+    height: 50%;
+    margin: 20px;
+    border: black 1px solid;
+}
+#moduleTitle{
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 5px;
+}
+#moduleGrade{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+#moduleDate{
+    font-size: 15px;
+    text-align: left;
+}
+#moduleLink{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    height: 50%;
+
+}
+#moduleLink:hover{
+    font-size: 15px;
+    color: white;
+    background-color:#F1C4BA;
+    height: 50%;
+    border-radius: 0px;
+    font-style: normal;
+}
+#moduleLinkWrapper{
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+#titleArt{
+    height: 50px;
+    margin-bottom: 30px;
+    width: fit-content;
+    word-break: break-word;
+}
+#modulesmallTitle{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* CSS for each portfolio details page */
+
+#articleTitleBig{
+    background-color: #F1C4BA;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+#moduleTitleBig{
+    font-size: 30px;
+    color: white;
+}
+
+#moduleDateBig{
+    text-align: center;
+    color: white;
+}
+
+/* Background for the page */
+#fullPage{
+    background-color: black;
+}
+
+#fullPageGrid{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: black;
+    border-radius: 15px;
+    color: white;
+}
+
+#fullPageGrid1{
+    padding: 10px;
+    width: 33%;
+    padding: 20px;
+}
+#fullPageGrid2{
+    padding: 5px;
+    width: 33%;
+    padding-left: 30px;
+    padding: 20px;
+}
+#fullPageGrid3{
+    width: 33%;
+    padding: 20px;
+}
+#fullPageGrid4{
+    width: 33%;
+    padding: 0px;
+}
+#fullPageGrid5{
+    width: 33%;
+    padding: 0px;
+    display: inline
+}
+#techUsed{
+    color: #F1C4BA;
+    text-align: center;
+    text-decoration: underline; 
+}
+#moduleShortDescription{
+    text-align: left;
+}
+#moduleDescription{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+#resultsDescription{
+    color: white;
+}
+#resultsDescription2{
+    color: white;
+    text-align: center;
+}
+
+#descriptionList{
+    color: white;
+    margin: 30px;
+    
+}
+ #descriptionItem{
+    margin: 0; 
+    padding: 0;
+    /* display: list-item; */
+ }
+
+#descriptionTitle{
+    color: white;
+    text-align: center;
+}
+#resultsImg{
+    width: 100%;
+    height: 100%;
+    
+}
+#resultsArticle{
+    display: flex;
+}
+
+#resultsSec1{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+#resultsSec2{
+    width: 30%;
+    font-size: 25px;
+    background-color: #F1C4BA;
+    padding: 10px;
+    margin-left: 10px;
+}
+#resultsSec23{
+    font-size: 25px;
+    background-color: #F1C4BA;
+    padding: 10px;
+    margin-left: 10px;
+    height: fit-content;
+}
+#moduleImgBig{
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    border: solid white 1px;
+}
+
+#moduleImgMedium{
+    width: 60%;
+    height: 60%;
+    margin: 20px;
+    border: solid white 1px;
+}
+#moduleImgSmall{
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+    margin-bottom: 0;
+    border: solid white 1px;
+}
+
+#gifSquare{
+    width: 80%;
+    height: 25%;
+}
+
+#moduleImgNoBorder{
+    width: 90%;
+    height: 90%;
+    padding: 0;
+}
+
+#XDMultipleImages{
+    width: 50%;
+    height: 50%;
+    padding: 0;
+}
+#techUsedList{
+    padding: 0%;
+    text-align: left; 
+}
+#techItem{
+    margin: 0%; 
+    text-align: left; 
+}
+#techUsedList > li{
+    margin: 0%;
+    padding: 0%;
+    display: list-item;
+}
+#moduleFullPageLink{
+    color: white;
+}
+#fullPageWebLink{
+    color: black;
+    word-wrap:  break-word;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+#fullPageDescription{
+    margin: 30px;
+    text-align: left;
+    color: black;
+}
+
+#fullPageDescriptionList{
+    margin: 10px;
+    text-align: left;
+    color: black;
+    width: 90%;
+}
+/* About page CSS */
+
+
+#faizaPicAbout{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+#aboutFigcaption{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#aboutFigcaption2{
+    color: white;
+    text-align: center;
+}
+
+#figcaption{
+    width: 80%;
+    margin: 30px;
+}
+#videoWalkthrough{
+    width: 70%;
+    height: 70%;
+    border: solid white 10px;
+}
+
+
+/* Contact Page CSS: */
+
+#contactArticle{
+    background-color: black;
+    padding: 20px;
+}
+
+#contactInfo{
+    text-align: center;
+}
+
+#contactTitle{
+    color: #F1C4BA;
+    font-size: 25px;
+}
+
+#contactForm{
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F1C4BA;
+    width: 60%;
+    border-radius: 15px;
+}
+
+form{
+    padding: 10px;
+}
+
+#formTitle{
+    color: black;
+}
+
+#formQuestion{
+    margin: 10px;
+    text-align: left;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+input[type=text]::placeholder {
+    color: #F1C4BA;
+}
+
+#contactPic{
+    width: 5%;
+    height: 5%;
+}
+
+#contactImages{
+    display: inline;
+}
+
+#submitContact{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border:  none;
+    font-size: 15px;
+}
+
+#submitContact:hover{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid black 1px;
+    font-size: 15px;
+}
+
+#emailLinkedinLinks{
+    background: black;
+    margin: 10px;
+}
+
+#contactImages{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#contactLinks{
+    display: inline-block;
+}
+
+#information{
+    color: white;
+    font-size: 15px;
+}
+
+/* Contact success message  */
+#contactSuccessArticle{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+#portfolioTitle{
+    color: #F1C4BA;
+    font-family: 'Pacifico', serif;
+    font-size: 30px;
+}
+
+#portfolioTitleSmall{
+    color: white;
+    font-size: 15px;
+}
+
+#imageCaptions{
+    color: white;
+}
+
+
+

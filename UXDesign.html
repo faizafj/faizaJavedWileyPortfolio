@@ -1,0 +1,146 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+			<ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img> 
+				<li><a href="index.html">Home</a></li>
+                <!-- <li> <a href="portfolioPage.html">Portfolio</a></li> -->
+				<li> <a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+    </header>
+
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+    
+    <center> 
+    <article id="fullPage">
+        <center> 
+            <article id="articleTitleBig">
+                <h2 id="moduleTitleBig"> User Experience Design Module </h2>
+                <p id="moduleDateBig"> September 2021 - December 2021 </p>
+            </article>
+
+        </center>
+        <center> 
+            <img src="photos/movieClubHomepage.jpeg" id="moduleImgMedium"> </img> 
+            <figcaption id="imageCaptions" > React Implementation of the Movie Club UI - Homepage </figcaption>
+        </center>
+            <article id="fullPageGrid">
+                <article id="fullPageGrid1">
+                    <p id="techUsed"> DESCRIPTION </p>
+                    <p id="moduleShortDescription"> This university module required me to create a Movie Review website using React and Flask with the main focus being the end user's experience (UX). 
+                        In order to plan and create the website, I first had to create a prototype which was tested against users through a usability test, which was then altered, and then the design was created. 
+                        After the website was complete, it was tested once again to pick out any further improvements and highlight the users experience. 
+                    </p>
+                </article>
+                <article id="fullPageGrid2">            
+                    <p id="techUsed"> TECHNOLOGY USED </p>
+                    <ul id="techUsedList"> 
+                        <li id=techItem"> Adobe XD </li>
+                        <li id=techItem"> HTML </li>
+                        <li id=techItem"> Flask </li>
+                        <li id=techItem"> Python </li>
+                        <li id=techItem"> JavaScript </li>
+                        <li id=techItem"> React.JS </li>
+                        <li id=techItem"> Material Design </li>
+                    </ul>
+                </article>   
+                <article id="fullPageGrid3">  
+                    <p id="techUsed"> WIREFRAME PROTOTYPE URL </p>          
+                    <p id="fullPageWebLink"> <a href="https://xd.adobe.com/view/da4eab5f-9774-48d6-9895-00723d91e64e-8f1d/?fullscreen&hints=off " id="moduleFullPageLink">https://xd.adobe.com/view/da4eab5f-9774-48d6-9895-00723d91e64e-8f1d/?fullscreen&hints=off </a> </p>
+                    <article id="fullPageGrid5">  
+                        <p id="techUsed"> GITHUB LINK </p> 
+                        <p id="fullPageWebLink"> <a href="https://github.com/faizafj/movieReviews" id="moduleFullPageLink"> Movie Reviews React GitHub</a> </p>
+                    </article> 
+
+                    <article id="fullPageGrid4">  
+                        <p id="techUsed"> GRADE GIVEN </p>          
+                        <p> 68% </p>
+                    </article> 
+                </article>       
+            </article>
+            <center> 
+                <img src="photos/adobeXDDesign.png" id="moduleImgSmall"> </img> 
+                <figcaption id="imageCaptions" > Abobe Wireframing: Every page and component used to create the prototype</figcaption>
+            </center>
+            
+            <article id="fullPageDescription">
+
+                <p id="moduleDescription"> I used Adobe XD to create a working prototype which emulated the design, features and functions of the website. 
+                     As XD has data-entry limitations, I was limited to a partial implementation which used mock data input meaning that the prototype could not be as realistic as intended which was challending to do, but also quite fun. 
+                     I enjoyed having to find work arounds to create the elements, and to learn different techniques in order to create the mock functionality.  
+                </p>
+
+                <article id="resultsArticle"> 
+                    <article id="resultsSec1"> 
+                        <img src="photos/results1.png" id="resultsImg"> </img> 
+                        <figcaption id="imageCaptions"> First round of user testing results</figcaption>
+                    </article>
+                    <article id="resultsSec2"> 
+                        <p id="resultsDescription"> The usability tests were conducted using Microsoft Teams to record the users as they completed set tasks. This was used to collect data such as Task Completion Times, to note any Verbal Utterances the user provided and to see any struggles the user had with the design. 
+                            At the end of testing, users were asked to fill a form which provided their opinions on each of the tasks and allowed them to provide further details on features they liked/disliked. 
+                       </p>
+                    </article>
+                </article>
+               <center> 
+                <img src="photos/movieClubScreen.jpeg" id="moduleImgMedium"> </img> 
+                <figcaption id="imageCaptions"> React Implementation of the Movie Club: Example of the Movie Details page</figcaption>
+            </center>
+
+                <p id="moduleDescription"> After the formative user testing, the improvements to the design were noted and were implemented in the next stage which was the creation of the website. 
+                    For the implementation of the website, I used a Flask backend using Python to handle the data for the website. To pull data from the database, I used SQLAlchemy which allowed communication with the Python and SQL server. For the UI and front-end of the website I used React which was a framework I had never used prior to this project.
+                    However, I understood and picked up layout of React very quickly which was essential in getting the project ready in time for testing and the module deadline.
+                </p>
+                <center> <img src="photos/results2.png" id="moduleImgNoBorder"> </img> </center>
+                <p id="moduleDescription"> Further testing was conducted with the same users after the prototype design was implemented into the website. This provided further information about how to user's experience with the website is and to see if it has been improved compared to the previous testing. 
+                    Overall, the users were all very satistfied, with 85% of users saying the website was very easy to use, meaning there was an improvement of around 30% (previously 57% of users found it very easy to use).
+                </p>
+
+
+                <center>
+                    <video controls id="videoWalkthrough">
+                        <source src="photos/Walkthrough - MovieClub.mp4" type="video/mp4">
+                      </video>
+                </center>
+                <p id="moduleDescription"> Above is a Walkthrough of the website that was created. It shows all the features that were created, how the website can be used, the pages available and the design of the website too. 
+                </p>
+            </article>
+        </article>
+    </center>
+
+
+    
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+        <footer>
+            <ul>
+                <li> <p id="copyrightFJ"> © Faiza Javed 2022</p></li>
+            </ul>
+        </footer>
+
+
+</body>

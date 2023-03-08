@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo">
+</head>
+
+<body>
+    <header>
+        <nav>
+			<ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img> 
+				<li><a href="index.html">Home</a></li>
+                <li> <a href="portfolioPage.html">Portfolio</a></li>
+				<li> <a href="about.html">About</a></li>
+			</ul>
+		</nav>
+    </header>
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+
+    <article id="aboutSnippet">
+        <article id="snippetOneF">
+            <img src="photos/faiza.png" id="faizaPicAbout"> </img> 
+            <figcaption id="aboutFigcaption"> Faiza Javed </figcaption>
+            <figcaption id="aboutFigcaption2"> Computing BSc Graduate </figcaption>
+        </article>
+        <article id="snippetTwo">
+            <p id="snippetDescription"> I am a recent graduate from Coventry University with a First class degree in Computing BSc. I am currently enrolled in the Wiley Edge Software Development Program.
+                And I am currently seeking a Web Development or Software Development Graduate or entry level role.
+                <br>
+                <br> 
+                My main programming languages are Python, JavaScript and most recently Java. I also have experience with using HTML, CSS and MySQL. 
+                I have experience with using React which was used in a few of my university projects and am very eager to learn new languages and develop my skills further.
+
+                <br>
+                <br>
+            </p> 
+        </article>
+        <article id="snippetThree"> 
+            <center>
+                <figure id="socialImagesBox">
+                    <a href="about.html" id="imgLink" > <img src="photos/AboutLink.png"
+                            id="socialImages"> </a>
+                    <figcaption>Profile</figcaption>
+                </figure>
+
+                <figure id="socialImagesBox">
+                    <a href="https://github.coventry.ac.uk/javedf5" id="imgLink"><img src="photos/githubLink.png"
+                            id="socialImages"> </img> </a>
+                    <figcaption>Github</figcaption>
+                </figure>
+                <figure id="socialImagesBox">
+                    <a href="https://www.linkedin.com/in/faizajaved-/" id="imgLink"> <img src="photos/linkedinLink.png"
+                            id="socialImages"> </img> </a>
+                    <figcaption>Linkedin</figcaption>
+                </figure>
+            </center>
+        </article>
+    </article>
+
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+    <footer>
+        <ul>
+            <li> <p id="copyrightFJ"> © Faiza Javed 2022</p></li>
+        </ul>
+    </footer>
+</body>

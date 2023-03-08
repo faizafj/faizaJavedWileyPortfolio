@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+			<ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img> 
+				<li><a href="index.html">Home</a></li>
+                <li> <a href="portfolioPage.html">Portfolio</a></li>
+				<li> <a href="about.html">About</a></li>
+
+			</ul>
+		</nav>
+    </header>
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+
+    <center> 
+    <article id="fullPage">
+        <center> 
+            <article id="articleTitleBig">
+                <h2 id="moduleTitleBig"> Metro Tap In/Out System </h2>
+                <p id="moduleDateBig"> December 2022 - December 2022 </p>
+            </article>
+
+
+        </center>
+        <center> <img src="photos/homepageImage.png" id="moduleImgMedium"> </img> </center>
+            <article id="fullPageGrid">
+                <article id="fullPageGrid1">
+                    <p id="techUsed"> DESCRIPTION </p>
+                    <p id="moduleShortDescription"> This project was completed as the Final Project for my 10 week training with Wiley Edge. This project required me to work in a team 
+                        to create a Metro tap in and tap out website, using SpringBoot (Java) and Microservices Architecture. My role within this project was to oversee that all areas of the 
+                        project were functioning correctly, assist with the Front End design by ensuring that the Wireframes created by another member were reflected in our website, and to test each function
+                        and ensure that everything was cohesive. This was project was to be completed within one week.
+                    </p>
+                </article>
+                <article id="fullPageGrid2">            
+                    <p id="techUsed"> TECHNOLOGY USED / METHODOLOGIES USED </p>
+                    <ul id="techUsedList"> 
+                        <li id=techItem"> Java </li>
+                        <li id=techItem"> SpringBoot </li>
+                        <li id=techItem"> Spring Data JPA </li>
+                        <li id=techItem"> MySQL </li>
+                        <li id=techItem"> HTML, CSS  </li>
+                        <li id=techItem"> Thymeleaf </li>
+                        <li id=techItem"> Microservices Architecture </li>
+                        <li id=techItem"> GitHub / Version Control </li>
+                        <li id=techItem"> REST API </li>
+                        <li id=techItem"> IntelliJ / Visual Studio Code </li>
+                    </ul>
+
+                </article>   
+                <article id="fullPageGrid3">  
+
+                    <article id="fullPageGrid5">  
+                        <p id="techUsed"> GITHUB LINK </p> 
+                        <p id="fullPageWebLink"> <a href="https://github.com/faizafj/metroSystemDec16" id="moduleFullPageLink"> Metro App GitHub </a> </p>
+                    </article> 
+                </article>       
+            </article>
+            <article id="fullPageDescription">
+                <article id="resultsSec23"> 
+                <center> <img src="photos/registerPageImage.png" id="moduleImgMedium"> </img></center>
+                
+
+                    <p id="resultsDescription2">
+                        This project was created so that it would allow users to login or register for an account. If they registered, they were given £25 free credit so they could start their journeys.
+                        </p>
+
+                        <center> <img src="photos/homepageImage.png" id="moduleImgMedium"> </img></center>
+
+
+                    <p id="resultsDescription2">
+                        Once they were logged in, they would then be presented to the View Balance page which was the homepage. Here they could view their balance.
+                        Select the station they were currently at and either tap in or out. 
+                        Once they tap out, the total price for their journey was calculated and the total taken off their balance.
+                        </p>
+
+
+                <center> <img src="photos/codeSnippet.png" id="moduleImgMedium"> </img></center>
+
+                    <center>
+
+                        <p id="resultsDescription2"> Firstly when creating the front-end of the website, I used Visual Studio code and plain html and css to start creating the design. 
+                            I had completed a few of the pages, and another group member completed the others. 
+                            Using VSCode allowed me to refresh the preview and get a real-time update of the design whereas with IntelliJ as we were using Thymeleaf for the views, it would not allow a 'quick' update.
+                            After creating the desing in VSCode, I would then transfer it into our project where I would add the Thymeleaf templating code to add functionality to the webpages and so that the pages were compatiable with the project.
+                       </p>
+
+                </center>
+  
+    
+
+                <center> <img src="photos/controller.png" id="moduleImgMedium"> </img></center>
+
+
+                    <p id="resultsDescription2">
+                            After creating the pages, it was my job to ensure that the controller would then take the user to the correct pages, and that the right parameters, and data were being requested and shown.
+                        </p>
+              
+
+                    <p id="resultsDescription2">
+                        As this project was to be completed within less than a week, the project had few errors and some features were not fully implemented as a result.
+                    </p>
+                </article>
+ 
+
+
+                <center>
+            </article>
+        </article>
+    </center>
+
+
+    
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+   <footer>
+    <ul>
+        <li> <p id="copyrightFJ"> © Faiza Javed 2023</p></li>
+    </ul>
+</footer>
+
+
+</body>
+
