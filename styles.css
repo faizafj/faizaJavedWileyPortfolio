@@ -477,6 +477,13 @@ figure > a:hover{
     margin: 20px;
     border: solid white 1px;
 }
+
+#moduleImgMedium2{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border: solid white 1px;
+}
 #moduleImgSmall{
     width: 70%;
     height: 70%;

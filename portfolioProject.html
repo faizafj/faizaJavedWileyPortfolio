@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Faiza Javed's Portfolio </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="NavBar">
+                <img src="photos/logo.png" id="logo"> </img>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="portfolioPage.html">Portfolio</a></li>
+                <li> <a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <button onclick="topFunction()" id="backToTopButton" title="Go to top">Back to Top</button>
+
+    <center>
+        <article id="fullPage">
+            <center>
+                <article id="articleTitleBig">
+                    <h2 id="moduleTitleBig"> Portfolio project </h2>
+                    <p id="moduleDateBig"> Feb 2022 - March 2022 </p>
+                </article>
+
+
+            </center>
+            <center> <img src="photos/portfolioWebsiteHome.png" id="moduleImgMedium"> </img> </center>
+            <article id="fullPageGrid">
+                <article id="fullPageGrid1">
+                    <p id="techUsed"> DESCRIPTION </p>
+                    <p id="moduleShortDescription"> This project was completed for Wiley Edge. This project me to create
+                        a portfolio which would
+                        display information about recent projects I have worked on with Wiley and any other technical
+                        projects. This is a static website
+                        which is being hosted using Netlify.
+                    </p>
+                </article>
+
+                <article id="fullPageGrid2">
+                    <p id="techUsed"> TECHNOLOGY USED / METHODOLOGIES USED </p>
+                    <ul id="techUsedList">
+                        <li id=techItem"> HTML </li>
+                        <li id=techItem"> CSS </li>
+                        <li id=techItem"> GitHub / Version Control </li>
+                        <li id=techItem"> Visual Studio Code </li>
+                    </ul>
+
+                </article>
+                <article id="fullPageGrid3">
+
+                    <article id="fullPageGrid5">
+                        <p id="techUsed"> GITHUB LINK </p>
+                        <p id="fullPageWebLink"> <a href="https://github.com/faizafj/faizaJavedWileyPortfolios"
+                                id="moduleFullPageLink"> Metro App GitHub </a> </p>
+                    </article>
+                </article>
+            </article>
+            <article id="fullPageDescription">
+                <article id="resultsSec23">
+                    <center> <img src="photos/registerPageImage.png" id="moduleImgMedium"> </img></center>
+
+
+
+                    <p id="resultsDescription2">
+                        Before starting this project, I created a wireframe to map out the pages I would need for the
+                        website.
+                        I also included the design of each page, so I could see which elements I needed and where they
+                        would go.
+                        Doing this allowed me to ensure that all the requirements would be met with my design.
+                    </p>
+
+
+                    <center> <img src="photos/htmlCodeSC.png" id="moduleImgMedium"> </img></center>
+
+                    <center>
+
+                        <p id="resultsDescription2">
+                            To create this website, I used Visual Studio Code in order to create the code and see the
+                            live changes being made.
+                        </p>
+
+                    </center>
+
+                    <center> <img src="photos/adobeXDDesign.gif" id="moduleImgMedium2"> </img></center>
+
+
+                    <p id="resultsDescription2">
+                        This website has four main pages which are: Homepage, About, Portfolio and each indivdual
+                        project page.
+                        The homepage displays an image of me and text which display my name. Upon hovering over a letter
+                        of my name,
+                        the letter changes color. This was an effect I created in order to add extra interactivity to
+                        the website.
+                    </p>
+
+
+
+                    <center> <img src="photos/clickLink.gif" id="moduleImgMedium2"> </img></center>
+                    <p id="resultsDescription2">
+                        The portfolio link on the homepage, has a jump to id link, which means that the page scrolls to the portfolio projects 
+                        ID which is on the same page. On any other page of the website, the user is taken to the portfolio page which is a seperate page, where the user can view the same projects.
+                    </p>
+                </article>
+
+
+
+                <center>
+            </article>
+        </article>
+    </center>
+
+
+
+    <script>
+        //Back to top button created using Code from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+        var mybutton = document.getElementById("backToTopButton");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <footer>
+        <ul>
+            <li>
+                <p id="copyrightFJ"> © Faiza Javed 2023</p>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
