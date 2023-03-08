@@ -118,7 +118,6 @@ footer > ul > li {
     margin: 20px;
     width: auto;
     display: grid;
-    margin-bottom: 15%;
     /* grid-template-columns: 1fr 4fr, 5fr; */
 }
 
@@ -179,6 +178,7 @@ footer > ul > li {
     letter-spacing: 10px;
     display: inline-block;
     margin-bottom: 10px;
+    cursor: default;
   }
   #hello2:hover {
     color:white;
@@ -188,6 +188,7 @@ footer > ul > li {
     letter-spacing: 10px;
     display: inline-block;
     margin-bottom: 10px;
+    cursor: default;
   }
 
 
@@ -204,6 +205,12 @@ footer > ul > li {
 
 #snippetDescription {
     color: white;
+}
+
+#snippetDescription2 {
+    color: white;
+    text-align: left;
+    font-size: 18px;
 }
 
 #socialImages{
@@ -561,6 +568,21 @@ figure > a:hover{
 #aboutFigcaption2{
     color: white;
     text-align: center;
+}
+
+#aboutFigcaption3{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Arimo", sans-serif;
+}
+
+#aboutFigcaption4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #figcaption{
